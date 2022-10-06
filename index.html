@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/basket.css">
+</head>
+<body>
+<header id="header">
+    <div class="container">
+        <div class="header">
+            <a href="#">
+                <img src="./img/logo1.png" alt="">
+            </a>
+            <div class="header-end">
+                <div class="menu">
+                    <a href="#" class="menu-item">Меню</a>
+                    <a href="#" class="menu-item">Акции</a>
+                    <a href="#" class="menu-item">О нас</a>
+                    <a href="#" class="menu-item">Контакты</a>
+                </div>
+                <div class="header-end-end">
+                    <select>
+                        <option>Ru</option>
+                        <option>Eng</option>
+                        <option>KGZ</option>
+                    </select>
+                    <button>
+                        вход
+                    </button>
+                    <a href="basket.html">
+                        <i class="fas fa-shopping-basket"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>
+
+<section id="hero">
+    <div class="container">
+        <div class="hero">
+            <div class="hero-start">
+                <h6>Вторник 2 Март 2022</h6>
+                <div class="hero-start-block">
+                    <input type="search" placeholder="Поиск еды, десерты и т. д.">
+                    <div class="hero-start-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="slider-one">
+                        <img src="./img/swiper-1.png" alt="">
+                        <img src="./img/swiper-2.png" alt="">
+                        <img src="./img/swiper-3.png" alt="">
+                        <img src="./img/swiper-1.png" alt="">
+                        <img src="./img/swiper-2.png" alt="">
+                        <img src="./img/swiper-3.png" alt="">
+                        <img src="./img/swiper-1.png" alt="">
+                        <img src="./img/swiper-2.png" alt="">
+                        <img src="./img/swiper-3.png" alt="">
+                        <img src="./img/swiper-1.png" alt="">
+                        <img src="./img/swiper-2.png" alt="">
+                        <img src="./img/swiper-3.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+
+
+<section id="products">
+    <div class="container">
+        <div class="products">
+            <div class="tabs">
+                <div class="tabs-label">
+                    <label for="pizza" class="tabs-tab">Пицца</label>
+                    <label for="combo" class="tabs-tab">Комбо</label>
+                    <label for="branded" class="tabs-tab">Фирменные Роллы</label>
+                    <label for="baked" class="tabs-tab">Запеченные Роллы </label>
+                    <label for="sets" class="tabs-tab">Сеты </label>
+                    <label for="drinks" class="tabs-tab">Напитки</label>
+                    <label for="dessert" class="tabs-tab">Десерты</label>
+                    <label for="hotter" class="tabs-tab">Горячее</label>
+                </div>
+
+                <div class="title">
+                    <h1>Выбрать блюда</h1>
+                    <div class="title-we">
+                        <select>
+                            <option>Фильтрация</option>
+                            <option>По алфавиту</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="tabs-img">
+                        <input type="radio" name="tab" id="pizza">
+                        <input type="radio" name="tab" id="combo">
+                        <input type="radio" name="tab" id="branded">
+                        <input type="radio" name="tab" id="baked">
+                        <input type="radio" name="tab" id="sets">
+                        <input type="radio" name="tab" id="drinks">
+                        <input type="radio" name="tab" id="dessert">
+                        <input type="radio" name="tab" id="hotter">
+                        <!--                    <div class="blocks">-->
+                        <div class="block1">
+                            <img src="./img/el.png" alt="img" class="ellipsis">
+                            <h1 class="block-title">Папа Микс Ренч</h1>
+                            <p class="block-subtitle">Четыре любимых пиццы в одной: <br>
+                                Цыпленок Рэнч, Ветчина и грибы, <br>
+                                Четыре Сыра, Спайси Рэнч</p>
+                            <div class="cm">
+                                <h3>25см</h3>
+                                <h2>30см</h2>
+                                <h2>35см</h2>
+                            </div>
+                            <div class="block-btn1">
+                                <button class="btn-1">Традиционное</button>
+                                <button class="btn-2">Тонкое</button>
+                            </div>
+                            <div class="block-btn-2">
+                                <button>В корзину за 660с</button>
+                            </div>
+                        </div>
+                        <div class="block1">
+                            <img src="./img/el.png" alt="img" class="ellipsis">
+                            <h1 class="block-title">Папа Микс Ренч</h1>
+                            <p class="block-subtitle">Четыре любимых пиццы в одной: <br>
+                                Цыпленок Рэнч, Ветчина и грибы, <br>
+                                Четыре Сыра, Спайси Рэнч</p>
+                            <div class="cm">
+                                <h3>25см</h3>
+                                <h2>30см</h2>
+                                <h2>35см</h2>
+                            </div>
+                            <div class="block-btn1">
+                                <button class="btn-1">Традиционное</button>
+                                <button class="btn-2">Тонкое</button>
+                            </div>
+                            <div class="block-btn-2">
+                                <button>В корзину за 660с</button>
+                            </div>
+                        </div>
+                        <div class="block3">
+                            <img src="./img/el.png" alt="img" class="ellipsis">
+                            <h1 class="block-title">Папа Микс Ренч</h1>
+                            <p class="block-subtitle">Четыре любимых пиццы в одной: <br>
+                                Цыпленок Рэнч, Ветчина и грибы, <br>
+                                Четыре Сыра, Спайси Рэнч</p>
+                            <div class="cm">
+                                <h3>25см</h3>
+                                <h2>30см</h2>
+                                <h2>35см</h2>
+                            </div>
+                            <div class="block-btn1">
+                                <button class="btn-1">Традиционное</button>
+                                <button class="btn-2">Тонкое</button>
+                            </div>
+                            <div class="block-btn-2">
+                                <button>В корзину за 660с</button>
+                            </div>
+                        </div>
+                        <div class="block4">
+                            <img src="./img/el.png" alt="img" class="ellipsis">
+                            <h1 class="block-title">Папа Микс Ренч</h1>
+                            <p class="block-subtitle">Четыре любимых пиццы в одной: <br>
+                                Цыпленок Рэнч, Ветчина и грибы, <br>
+                                Четыре Сыра, Спайси Рэнч</p>
+                            <div class="cm">
+                                <h3>25см</h3>
+                                <h2>30см</h2>
+                                <h2>35см</h2>
+                            </div>
+                            <div class="block-btn1">
+                                <button class="btn-1">Традиционное</button>
+                                <button class="btn-2">Тонкое</button>
+                            </div>
+                            <div class="block-btn-2">
+                                <button>В корзину за 660с</button>
+                            </div>
+                        </div>
+                        <div class="block5">
+                            <img src="./img/el.png" alt="img" class="ellipsis">
+                            <h1 class="block-title">Папа Микс Ренч</h1>
+                            <p class="block-subtitle">Четыре любимых пиццы в одной: <br>
+                                Цыпленок Рэнч, Ветчина и грибы, <br>
+                                Четыре Сыра, Спайси Рэнч</p>
+                            <div class="cm">
+                                <h3>25см</h3>
+                                <h2>30см</h2>
+                                <h2>35см</h2>
+                            </div>
+                            <div class="block-btn1">
+                                <button class="btn-1">Традиционное</button>
+                                <button class="btn-2">Тонкое</button>
+                            </div>
+                            <div class="block-btn-2">
+                                <button>В корзину за 660с</button>
+                            </div>
+                        </div>
+                        <div class="block6">
+                            <img src="./img/el.png" alt="img" class="ellipsis">
+                            <h1 class="block-title">Папа Микс Ренч</h1>
+                            <p class="block-subtitle">Четыре любимых пиццы в одной: <br>
+                                Цыпленок Рэнч, Ветчина и грибы, <br>
+                                Четыре Сыра, Спайси Рэнч</p>
+                            <div class="cm">
+                                <h3>25см</h3>
+                                <h2>30см</h2>
+                                <h2>35см</h2>
+                            </div>
+                            <div class="block-btn1">
+                                <button class="btn-1">Традиционное</button>
+                                <button class="btn-2">Тонкое</button>
+                            </div>
+                            <div class="block-btn-2">
+                                <button>В корзину за 660с</button>
+                            </div>
+                        </div>
+                        <div class="block7">
+                            <img src="./img/el.png" alt="img" class="ellipsis">
+                            <h1 class="block-title">Папа Микс Ренч</h1>
+                            <p class="block-subtitle">Четыре любимых пиццы в одной: <br>
+                                Цыпленок Рэнч, Ветчина и грибы, <br>
+                                Четыре Сыра, Спайси Рэнч</p>
+                            <div class="cm">
+                                <h3>25см</h3>
+                                <h2>30см</h2>
+                                <h2>35см</h2>
+                            </div>
+                            <div class="block-btn1">
+                                <button class="btn-1">Традиционное</button>
+                                <button class="btn-2">Тонкое</button>
+                            </div>
+                            <div class="block-btn-2">
+                                <button>В корзину за 660с</button>
+                            </div>
+                        </div>
+                        <div class="block8">
+                            <img src="./img/el.png" alt="img" class="ellipsis">
+                            <h1 class="block-title">Папа Микс Ренч</h1>
+                            <p class="block-subtitle">Четыре любимых пиццы в одной: <br>
+                                Цыпленок Рэнч, Ветчина и грибы, <br>
+                                Четыре Сыра, Спайси Рэнч</p>
+                            <div class="cm">
+                                <h3>25см</h3>
+                                <h2>30см</h2>
+                                <h2>35см</h2>
+                            </div>
+                            <div class="block-btn1">
+                                <button class="btn-1">Традиционное</button>
+                                <button class="btn-2">Тонкое</button>
+                            </div>
+                            <div class="block-btn-2">
+                                <button>В корзину за 660с</button>
+                            </div>
+                        </div>
+                        <div class="block9">
+                            <img src="./img/el.png" alt="img" class="ellipsis">
+                            <h1 class="block-title">Папа Микс Ренч</h1>
+                            <p class="block-subtitle">Четыре любимых пиццы в одной: <br>
+                                Цыпленок Рэнч, Ветчина и грибы, <br>
+                                Четыре Сыра, Спайси Рэнч</p>
+                            <div class="cm">
+                                <h3>25см</h3>
+                                <h2>30см</h2>
+                                <h2>35см</h2>
+                            </div>
+                            <div class="block-btn1">
+                                <button class="btn-1">Традиционное</button>
+                                <button class="btn-2">Тонкое</button>
+                            </div>
+                            <div class="block-btn-2">
+                                <button>В корзину за 660с</button>
+                            </div>
+                        </div>
+                        <!--                    </div>-->
+                        <!--                    <img src="./img/Mix-rench.png" alt="img" class="logamn">-->
+                    </div>
+
+                    <div class="basket">
+                        <div class="basket-hero">
+                            <h1>Корзина</h1>
+                            <h2>Очистить все
+                                <i class="fa-solid fa-trash-can"></i>
+                            </h2>
+                        </div>
+                        <hr>
+                        <div class="chick">
+                            <div class="chick-start">
+                                <img src="./img/basket-img.png" alt="img">
+                                <div class="chick-font">
+                                    <h1>Цыпленок Барбекю</h1>
+                                    <p>Традиционное тесто, 23 см</p>
+                                </div>
+                            </div>
+                            <div class="chick-bottom">
+                                <button>-</button>
+                                <h1>1</h1>
+                                <button>+</button>
+                            </div>
+                            <h1>365c</h1>
+                        </div>
+                        <hr>
+                        <div class="chick">
+                            <div class="chick-start">
+                                <img src="./img/basket-img.png" alt="img">
+                                <div class="chick-font">
+                                    <h1>Цыпленок Барбекю</h1>
+                                    <p>Традиционное тесто, 23 см</p>
+                                </div>
+                            </div>
+                            <div class="chick-bottom">
+                                <button>-</button>
+                                <h1>1</h1>
+                                <button>+</button>
+                            </div>
+                            <h1>365c</h1>
+                        </div>
+                        <hr>
+                        <div class="chick">
+                            <div class="chick-start">
+                                <img src="./img/basket-img.png" alt="img">
+                                <div class="chick-font">
+                                    <h1>Цыпленок Барбекю</h1>
+                                    <p>Традиционное тесто, 23 см</p>
+                                </div>
+                            </div>
+                            <div class="chick-bottom">
+                                <button>-</button>
+                                <h1>1</h1>
+                                <button>+</button>
+                            </div>
+                            <h1>365c</h1>
+                        </div>
+                        <hr>
+                        <h1>Итого:1400cом</h1>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<div class="quantity">
+    <h3 class="subtitle">Quantity</h3>
+    <div class="form quantityCounter">
+        <input class="inputQuantity" onKeyDown="return false" type="number" value="1" />
+
+        <i class="icon btnQuantity minus">
+            <img src="https://rafaelalucas.com/dailyui/12/assets/minus.svg" alt="">
+        </i>
+        <i class="icon btnQuantity plus">
+            <img src="https://rafaelalucas.com/dailyui/12/assets/plus.svg" alt="">
+        </i>
+    </div>
+    <div class="almaz">
+        <h1>alismailov</h1>
+    </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="./js/all.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
